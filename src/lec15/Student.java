@@ -1,6 +1,6 @@
 package lec15;
 
-public class Student {
+public class Student extends Object {
 
 	private int age ;
 	String name ;

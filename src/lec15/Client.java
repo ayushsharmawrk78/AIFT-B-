@@ -7,6 +7,11 @@ public class Client {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
+		Student s =new Student();
+		s.
+		
+		
+		
 //		Student s = new Student();
 //	s.name = "raman";
 //		System.out.println(s.name);
