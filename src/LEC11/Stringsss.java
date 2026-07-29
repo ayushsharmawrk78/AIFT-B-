@@ -1,6 +1,8 @@
 package LEC11;
 
-public class Stringsss {
+import lec19.Student;
+
+public class Stringsss extends Student {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -42,6 +44,12 @@ String a = "Nitin";
 //System.out.println(a.compareTo(m));
 //System.out.println(a.substring(1));
 //System.out.println(a.substring(0,3));
+
+Student s = new Student();
+
+s.numb
+
+
 
 
 for (int i = 0; i < a.length(); i++) {
