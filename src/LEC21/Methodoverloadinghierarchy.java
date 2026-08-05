@@ -4,8 +4,22 @@ public class Methodoverloadinghierarchy {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int  m =10;
+//int  m =10;
 //fun(m);
+char c = 'a';
+c++;// c++ --> c = (char)(c+1)
+
+byte c1 =10;
+c1+=1;
+// +=, ++ ...---> c++; c= (char)(c+1);
+
+
+
+System.out.println(c);
+
+//for (int i = Integer.MAX_VALUE-1; i <=Integer.MAX_VALUE ; i++) {
+//	System.out.println(i);
+//}
  
 
 	}
