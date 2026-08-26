@@ -1,17 +1,14 @@
 package lec28;
 
-public class Animal extends Thread {
+public class Animal  {
 
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-	eat();
-	}
+	
 	public void eat() {
+		System.out.println(Thread.currentThread().getName());
 		System.out.println("eating in animal"+Thread.currentThread().getName());
 	}
 	public static void main(String[] args) {
 		Animal a = new Animal();
-		a.start();
+		
 	}
 }

@@ -1,20 +1,22 @@
 package lec28;
 
-public class Cat  extends Animal implements Runnable{
+public class Cat  extends Animal implements Runnable {
 
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-		meow();
-		super.eat();
-	}
+	
 	
 	
 	public void meow() {
-		
+		System.out.println("meowwwww");
+		System.out.println(Thread.currentThread().getName());
 	}
 	public static void main(String[] args) {
 		Cat c = new Cat();
-		c.start();
+
+	
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
 	}
 }
