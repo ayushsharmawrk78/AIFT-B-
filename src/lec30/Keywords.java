@@ -5,7 +5,7 @@ public class Keywords {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		Demo t1 = new Demo();
+		Demo2 t1 = new Demo2();
 
 		
 		t1.start();
