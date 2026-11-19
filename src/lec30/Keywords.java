@@ -7,8 +7,13 @@ public class Keywords {
 
 		Demo2 t1 = new Demo2();
 
-		
+
 		t1.start();
+		
+		
+		Thread.sleep(100);
+		Demo2.b=false;
+		System.out.println(Demo2.b);
 
 
 	}
@@ -18,7 +23,7 @@ public class Keywords {
 
 
 class Demo2 extends Thread{
- static  boolean b = true;
+ static  volatile boolean b = true;
 	
 	@Override
 	public void run() {
